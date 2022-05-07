@@ -30,12 +30,14 @@ h1,h2,h3,h4,h5,h6,p {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* убрал точки 2 страницы*/
+/* убрал точки 2 страницы, обнулил падинг\маржин*/
 .list {
 list-style: none;
 margin: 0;
 padding: 0;
 }
+
+
 
 .header-container {
     display: flex;
@@ -58,8 +60,22 @@ padding: 0;
 .logo-header {
     color: black
 }
-
 /* навигация */
+
+.nav-list{
+display: flex;
+align-items:center
+}
+
+.nav-item{
+margin-right: 50px;
+
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
 .header-link {
 
 font-weight: 500;
@@ -68,6 +84,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 text-decoration:none;
+
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 /* подсветка навигации на 2х страницах */
@@ -78,6 +98,18 @@ text-decoration:none;
 .header-group{
     margin-left: auto;
 }
+.group-list{
+   display: flex;
+}
+.group-item{
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.group-item:last-child {
+    margin-right: 0;
+}
+
 .header-mail,
 .header-tel{
 font-weight: 500;
@@ -86,6 +118,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 text-decoration:none;
+
 }
 
 .header-mail:hover,
@@ -94,6 +127,7 @@ text-decoration:none;
 }
 .hero-section{
 text-align: center;
+margin-bottom: 94px;
 }
 
 /* hero and main*/
@@ -104,6 +138,11 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+
+padding-top: 200px;
+padding-right: 233px;
+padding-bottom: 30px;
+padding-left: 233px;
 }
 
 .hero-btn{
@@ -116,20 +155,45 @@ color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
 
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+
+    margin-bottom: 200px;
+}
+.benefits{
+    margin-bottom: 94px;
+}
+.list-benefits{
+    display: flex;
+}
 .our-benefits{
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: #212121;
+
+margin-right: 30px;
+margin-bottom: 10px;
 }
+
+
 .text-benefits{
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+margin-right: 30px;
+}
+
+.last-child {
+    margin-right: 0;
+}
+.list-activity{
+    display: flex;
+    justify-content: space-between;
 }
 .activity,
 .team {
@@ -139,6 +203,13 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
+
+margin-bottom: 50px;
+
+}
+.list-team{
+    display: flex;
+    justify-content: space-between;
 }
 .name{
 font-weight: 500;
