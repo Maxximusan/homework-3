@@ -1,0 +1,215 @@
+body{
+color: #757575;
+background-color: white;
+font-family: "roboto", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+.container{
+    width: 1200px;
+
+   padding-left: 15px;
+   padding-right: 15px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    outline: 2px solid orangered;
+}
+/* спрятал 2 заголовка */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* убрал точки 2 страницы*/
+.list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+/* подсветка логотипа хедер\футер 2 страницы*/
+.logo{
+    color: #2196F3;
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration:none;
+
+    margin-right: 93px;
+}
+
+/*  веб хедер*/
+.logo-header {
+    color: black
+}
+
+/* навигация */
+.header-link {
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration:none;
+}
+
+/* подсветка навигации на 2х страницах */
+.current {
+    color: #2196F3
+}
+
+.header-group{
+    margin-left: auto;
+}
+.header-mail,
+.header-tel{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration:none;
+}
+
+.header-mail:hover,
+.header-mail:focus{
+    color: #2196F3;
+}
+.hero-section{
+text-align: center;
+}
+
+/* hero and main*/
+.hero-header{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-btn{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.our-benefits{
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.text-benefits{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.activity,
+.team {
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.profession{
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+/* веб футер */
+.logo-footer{
+    color:white
+}
+.footer-address{
+font-style: normal;
+}
+
+.footer-text,
+.footer-mail,
+.footer-tel {
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration:none;
+
+}
+/* footer text only */
+.fto {
+    color: white;
+}
+/* бэкграунд */
+.hero-section,
+.footer{
+    background-color: #2F303A;
+}
+
+/* портфолио*/
+.portfolio-btn{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+color: #212121;
+background-color: #F5F4FA;
+border-radius: 4px;
+}
+
+.btn-all:hover{
+color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-img{
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+.portfolio-text{
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
