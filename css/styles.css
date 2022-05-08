@@ -6,6 +6,10 @@ font-family: "roboto", sans-serif;
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
 .container{
     width: 1200px;
 
@@ -23,6 +27,7 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 .section-activity{
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 /* спрятал 2 заголовка */
@@ -130,6 +135,7 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration:none;
 
+display: block;
 padding-top: 32px;
 padding-bottom: 32px;
 }
@@ -173,6 +179,10 @@ margin-bottom: 30px;
     padding-bottom: 10px;
     padding-left: 32px;
 
+}
+.benefits-section{
+    padding-top: 94px;
+  
 }
 .benefits{
     width: 270px;
@@ -375,6 +385,7 @@ margin: 0;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
 }
+
 .portfolio-img{
 font-size: 18px;
 line-height: 2;
